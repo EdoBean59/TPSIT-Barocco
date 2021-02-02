@@ -1,0 +1,64 @@
+<html>
+	<head>
+		<title>Home</title>
+		<link href="Opere.css" rel="stylesheet">
+		<script src="funzioni.js" ></script>		
+		<script language="javascript">
+			function over(id){
+				document.getElementById(id).style.backgroundColor="yellow";
+				if(id=="selezione1"){
+					document.getElementById("selezione2").style.backgroundImage="";
+					document.getElementById("selezione3").style.backgroundImage="";
+				}else if(id="selezione2"){
+					document.getElementById("selezione1").style.backgroundImage="";
+					document.getElementById("selezione3").style.backgroundImage="";				
+				}else{
+					document.getElementById("selezione1").style.backgroundImage="";
+					document.getElementById("selezione2").style.backgroundImage="";
+				}
+			}
+			function out(id){
+				document.getElementById("banda").style.backgroundColor="#99ddff";
+			}
+		</script>
+		
+	</head>
+	<body>
+		<div id="sfondo">
+			<div class="fascia"> IL BAROCCO </div>
+			<p>Il barocco è nato a Roma nel XVII secolo, per poi diffondersi in tutta Europa, uno dei maggiori esponenti fu Gian Lorenzo Bernini. <br/>
+			Il termine barocco originariamente dispregiativo, indicava la mancanza di regolarità e di ordine considerato indice di cattivo gusto. 
+			Infatti, le caratteristiche fondamentali dell’architettura barocca sono le forme plastiche, con la predilezione delle linee curve, dagli 
+			andamenti sinuosi, come ellissi, spirali o curve a costruzione policentrica, talvolta con motivi che si intrecciano fra di loro, tanto
+			da risultare quasi indecifrabili. <br/> Tutto doveva destare meraviglia e il forte senso della teatralità portò a una fusione di pittura, 
+			scultura e stucco, sottolineando il tutto mediante giochi di luci e ombre. </p>
+			<div class="conclusione"><p style="text-align:center;margin:auto;top:12%;"> &copy; Barocco <br/> Fagioli Edoardo - 3E <br/> fagioli.edoardo.6800@itisothoca.edu.it </p></div>
+		</div>
+		<div class="banda">
+			<img src="ApolloEDafne.jpeg">
+			<div class="titolo">
+			<br/><a>Apollo E Dafne</a><br/><br/>
+			L'"Apollo e Dafne" è un gruppo scultoreo in marmo realizzato dal famoso artista Gian Lorenzo Berninitra il 1622 e il 1625 ed esposto nella Galleria Borghese di Roma.
+			<br/><br/><br/><a style="left:53%;font-size:20px" href="ApolloDafne.html">Vai alla pagina dell'Opera</a>
+			</div>
+		</div>
+		<div class="banda">
+			<img src="andreapozzo.jpg">
+			<div class="titolo">
+			<br/><a>Gloria di Sant'Ignazio</a><br/><br/>
+			La “Gloria di Sant’Ignazio” è un affresco illusionistico realizzato nell’anno 1685 da Andrea Pozzo, pittore e architetto gesuita, e conservato all’interno 
+			della Chiesa di Sant’Ignazio di Loyola in Campo Marzio, sita a Roma, in Piazza Sant’Ignazio, nel rione Pigna.
+			<br/><br/><a style="left:53%;font-size:20px" href="Gloria.html">Vai alla pagina dell'Opera</a>
+			</div>
+		</div>
+		<div class="banda">
+			<img src="estasi.jpg">
+			<div class="titolo">
+			<br/><a>Estasi di Santa Teresa d'Avila</a><br/><br/>
+			"Estasi di Santa Teresa d'Avila", scultura in marmo alta 350cm realizzata tra il 1647 e 1652 dallo scultore Gian Lorenzo Bernini, 
+			situata nella  Chiesa di Santa Maria della Vittoria a Roma.
+			<br/><br/><a style="left:53%;font-size:20px" href="SantaTeresa.html">Vai alla pagina dell'Opera</a>
+			</div>
+		</div>
+	</body>
+</html>
